@@ -176,8 +176,7 @@ Happy roleplaying!
 
 ## Templates
 
-**Master Lorebook Template**
-
+### Master Lorebook Template
 ```
 ---
 aliases: Master Lorebook
@@ -240,7 +239,7 @@ version: 001.001
 
 ---
 
-**RAG World Overview Template:**
+### RAG World Overview Template
 ```
 ---
 id: world_overview
@@ -273,7 +272,7 @@ tags: [setting, overview, world]
 
 ---
 
-**RAG Character Template:**
+### RAG Character Template
 ```
 ---
 id: char_[simple_id]
@@ -307,7 +306,7 @@ Why they matter to the overall story.
 
 ---
 
-**RAG Location Template:**
+### RAG Location Template
 ```
 ---
 id: loc_[unique_id]
@@ -348,7 +347,7 @@ Any historical background or special elements connected to this location.
 
 ---
 
-**RAG Item Template:**
+### RAG Item Template
 ```
 ---
 id: item_[unique_id]
@@ -384,7 +383,7 @@ Where the item is currently kept and its condition.
 
 ---
 
-**RAG Lore Template:**
+### RAG Lore Template
 ```
 ---
 id: lore_[unique_id]
