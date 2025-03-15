@@ -26,60 +26,74 @@ We will organize all of your bot's lore and develop fully functional and reliabl
 - *In terms of permanent knowledge, the more organized we make the information, the more reliable the bot will become."*
 - *We can easily leverage AI like Claude.ai, chatgpt.com, and Gemini online to organize this for us if we use the magic words.*
 
-## Let's Get Started!!!
+---
 
+## Let's Get Started!!!
 *Let's develop our chatbot's permanent knowledge database!*
 
 The process we'll follow is simple yet powerful:
+> 1. Gather all your chatbot lore
+> 2. Create a structured Master Lorebook from your lore
+> 3. Transform your Lorebook into smaller structured documents for your chatbot
 
-1. Gather all your chatbot lore
-2. Create a structured Master Lorebook from your lore
-3. Transform your Lorebook into smaller structured documents for your chatbot
+**Steps 2 and 3 sound like hell!** 
+That's why we get AI to do it for us!
 
-**Steps 2 and 3 sound like hell!** That's why we get AI to do it for us!
+---
 
 ### Step 1: Gather Your Lore
+Collect everything you want your character to have as their permanent knowledge. This can be in a single long document or multiple random documents. Don't worry about organization at this point - just get it all in one place. Get **EVERY BIT** of lore you can bring to the table.
 
-- Collect everything you want your character to have as their permanent knowledge
-- This can be in a single long document or multiple random documents
-- Don't worry about organization at this point - just get it all in one place
-- Get **EVERY BIT** of lore you can bring to the table.
+---
 
 ### Step 2: Create Your Master Lorebook
-
 *Yay! You're still reading!*
 
-- Start a chat with your favorite online AI. I used Claude.ai online. DO NOT use a shape for this.
-- Attach these files to the message:
+1. Start a chat with your favorite online AI. I used Claude.ai online. DO NOT use a shape for this.
+2. Attach these files to the message:
 
-- ALL your lore documents
-- The **Master Lorebook Template** (its at the end of this document)
-- Ask the AI to organize all of your lore into this Master Lorebook template
+> - ALL your lore documents
+> - The **Master Lorebook Template** (its at the end of this document)
+> - Ask the AI to organize all of your lore into this Master Lorebook template
 
-Say pwease...
-> Prompt: "Please organize all of my lore into the Master Lorebook template. Fill in all relevant sections based on the information I've provided. Keep all important details but organize them logically. Make sure to cross-reference elements between sections."
+**Use this prompt:**
+```
+Please organize all of my lore into the Master Lorebook template. Fill in all relevant sections based on the information I've provided. Keep all important details but organize them logically. Make sure to cross-reference elements between sections.
+```
 
-**Review your lorebook for inaccuracies or missing info and make corrections.**
+### Review your lorebook for inaccuracies or missing info and make corrections.
+
+---
 
 ### Step 3: Transform Master Lorebook into RAG Documents
 
 Now we'll take your Master Lorebook and break it into specialized RAG documents for your chatbot to access.
-
-- Start a new chat with your AI assistant
-- Attach the following files:
-
-- **Master Lorebook** (the one you just made!)
+1. Start a new chat with your AI assistant
+2. Attach the following files:
+> - **Master Lorebook** (the one you just made!)
 PLUS these four templates (again, they're at the bottom)
-- **RAG World Overview Template**
-- **RAG Character Template**
-- **RAG Location Template**
-- **RAG Item Template**
-- **RAG Lore Template**
+> - **RAG World Overview Template**
+> - **RAG Character Template**
+> - **RAG Location Template**
+> - **RAG Item Template**
+> - **RAG Lore Template**
 
 Now, talk to the AI sweetly...
-> PROMPT: "Please transform my Master Lorebook into separate RAG documents using the templates provided. Create one World Overview RAG, and separate RAG documents for each major character, location, item, and lore element. Keep each RAG document under 3000 characters. Make sure to include cross-references between documents in the related fields."
+```
+Please transform my Master Lorebook into separate RAG documents using the templates provided. Create one World Overview RAG, and separate RAG documents for each major character, location, item, and lore element. Keep each RAG document under 3000 characters. Make sure to include cross-references between documents in the related fields.
+```
 
-**IMPORTANT: Each RAG document should be under 3000 characters (NOT tokens) for optimal performance**
+### After completing this step you will have AT LEAST 6 separate documents:
+1. Master Lorebook of your Lore
+2. World Overview RAG
+3. Characters RAG
+4. Locations RAG
+5. Items RAG
+6. Lore RAG
+
+*Depending on how detailed you want to get you can have one document for each of your characters or you can combine several character into one.*
+
+---
 
 ### Step 4: Review and Upload to Your Chatbot
 
@@ -87,6 +101,12 @@ Now, talk to the AI sweetly...
 - Make any necessary edits or corrections
 - Upload the RAG documents to your chatbot's knowledge base
 - Test your chatbot's knowledge by asking questions about different aspects of your lore
+
+
+# CONGRATULATIONS!!! YOU DID IT!!!
+Your bot is now super smort and ready to go fishing for Harry Potter's wand! Keep testing and making little adjustments and updates if needed and you'll be amazed at how well your bot imroves, even if you thought it was great before!
+
+---
 
 ## Understanding the Magic (The Fun Part)
 
@@ -101,6 +121,8 @@ Now that you've got your chatbot's knowledge organized, let's dig into why this 
 - A good chatbot with well-structured knowledge would be able to roleplay scenarios accurately, describing locations correctly and portraying characters consistently with their established traits.
 - BUT WAIT! WHAT IF I WANT MY AI TO BE FREELY CREATIVE!!?? Don't worry! The bot will naturally fill in details creatively in every roleplay encounter. However, you want them to have a foundation to build that creativity on. The level of detail you provide is up to you!
 
+---
+
 ### How RAG Databases Work (Simplified)
 
 RAG stands for Retrieval-Augmented Generation, and it's how your chatbot accesses its knowledge:
@@ -109,41 +131,35 @@ RAG stands for Retrieval-Augmented Generation, and it's how your chatbot accesse
 2. The bot searches its knowledge database for matches and retrieves what it thinks are most relevant based on what it sees
 3. It incorporates this information into its response
 
-The structure we've created makes this process more efficient by:
-
-- Organizing information into logical categories
-- Including metadata like tags and IDs
-- Creating cross-references between related entities
-- Keeping information chunks optimally sized
-
 ### Why This Structure Works So Well
-
-1. **Cross-Referencing**: Our system creates connections between characters, locations, items, and lore
+1. **Cross-Referencing**: This approach creates connections between characters, locations, items, and lore
 2. **Consistency**: Information is organized in a standardized way
 3. **Completeness**: All important aspects of your world are covered
 4. **Retrievability**: The metadata makes it easy for the AI to find relevant information
 5. **Simplicity**: No need to understand complex database structures - the templates do the work!
 
+---
+
 ## Advanced Tips
 
-If you want to take your chatbot's knowledge to the next level:
+If you want to really make your chatbot's knowledge S-tier:
 
 - **Regular Updates**: As your world evolves, update your RAG documents accordingly
-- **Organize Your Stuff**: If you do any sort of large scale stuff like this I'd highly recommend using some sort of file handling and organization system. Obsidian, Notion, and Evernote are three major ones but there are a bunch of others. I use Obsidian personally.
-- **Experiment with Different Structuring**: Add more detail or leave parts out. I have more detailed templates. Just ask and I'll send them to ya!
+- **Keep Yourself Organized**: If you do any sort of large scale stuff like this I'd highly recommend using some sort of file handling and organization system like Obsidian, Notion, or Evernote. These are just three major ones but there are a bunch of others. I use Obsidian personally.
+- **Experiment with Different Structuring**: Add more detail or leave parts out.
 - **Sensory Details**: Include sights, sounds, smells in location descriptions for more immersive roleplay
 - **Character Voice**: Include speech patterns or vocabulary unique to different characters so your bot can effectively portray them
 - **Balanced Detail**: Too little makes your world flat, too much can overwhelm the AI
-- **Test Your Bot**: Regularly ask your chatbot questions about its world to identify knowledge gaps.
+- **Keep Roleplays Fun**: Roleplays and interactions cost money. If you notice your bot is getting a particular piece of knowledge wrong or wandering off base you can always redirect the roleplay into more familiar territory. Then make a personal note to check the bot's RAG documents later. 9 out of 10 times its a quick addition of a tag at the top or a clarification that will make the difference.
 
 ## Recognize AI's limitations
+Bots are already creative and "smort", that's why they can give us such great roleplays and experiences. But you can only get out what you put in. Be patient with the bot and with yourself as you fix errors or holes in knowledge. That said, some of your success will depend somewhat on things that are outside your control, such as model specs and even platform reliability. Do what you can so you have the best experience possible!
 
-- Bots are already creative and "smort", that's why they can give us such great roleplays and experiences. But you can only get out what you put in. Be patient with the bot and with yourself as you fix errors or holes in knowledge.
-- Your success will also depend somewhat on things that are outside your control, such as model specs and even platform reliability. Do what you can so you have the best experience possible!
+---
 
 ## Conclusion
 
-*Congratulations! You've now created a professional-grade knowledge system for your chatbot. Your bot is now "more smort" and ready to provide consistent, immersive roleplay experiences based on your world. This is only one of many ways to do this. The best way to do anything is the way that works best. Ultimately the goal is to have fun with our bots!
+Congratulations! You've now created a professional-grade knowledge system for your chatbot. Your bot is now "more smort" and ready to provide consistent, immersive roleplay experiences based on your world. This is only one of many ways to do this. The best way to do anything is the way that works best. Ultimately the goal is to have fun with your bots!
 
 Remember:
 
@@ -161,6 +177,7 @@ Happy roleplaying!
 ## Templates
 
 **Master Lorebook Template**
+
 ```
 ---
 aliases: Master Lorebook
