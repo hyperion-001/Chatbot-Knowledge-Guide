@@ -72,11 +72,11 @@ Now we'll take your Master Lorebook and break it into specialized RAG documents 
 2. Attach the following files:
 > - **Master Lorebook** (the one you just made!)
 PLUS these four templates (again, they're at the bottom)
-> - **RAG World Overview Template**
-> - **RAG Character Template**
-> - **RAG Location Template**
-> - **RAG Item Template**
-> - **RAG Lore Template**
+> - [**RAG World Overview Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-world-overview-template)
+> - [**RAG Character Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-character-template)
+> - [**RAG Location Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-location-template)
+> - [**RAG Item Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-item-template)
+> - [**RAG Lore Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-lore-template)
 
 Now, talk to the AI sweetly...
 ```
