@@ -53,7 +53,7 @@ Collect everything you want your character to have as their permanent knowledge.
 2. Attach these files to the message:
 
 > - ALL your lore documents
-> - The **Master Lorebook Template** (its at the end of this document)
+> - The [**Master Lorebook Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#templates) (its at the end of this document)
 > - Ask the AI to organize all of your lore into this Master Lorebook template
 
 **Use this prompt:**
