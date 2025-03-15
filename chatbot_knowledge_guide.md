@@ -56,7 +56,7 @@ Collect everything you want your character to have as their permanent knowledge.
 > - The [**Master Lorebook Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#templates) (its at the end of this document)
 > - Ask the AI to organize all of your lore into this Master Lorebook template
 
-**Use this prompt:**
+**Use this prompt**
 ```
 Please organize all of my lore into the Master Lorebook template. Fill in all relevant sections based on the information I've provided. Keep all important details but organize them logically. Make sure to cross-reference elements between sections.
 ```
@@ -78,7 +78,7 @@ PLUS these four templates (again, they're at the bottom)
 > - [**RAG Item Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-item-template)
 > - [**RAG Lore Template**](https://github.com/hyperion-001/Chatbot-Knowledge-Guide/blob/main/chatbot_knowledge_guide.md#rag-lore-template)
 
-Now, talk to the AI sweetly...
+**Use this prompt**
 ```
 Please transform my Master Lorebook into separate RAG documents using the templates provided. Create one World Overview RAG, and separate RAG documents for each major character, location, item, and lore element. Keep each RAG document under 3000 characters. Make sure to include cross-references between documents in the related fields.
 ```
